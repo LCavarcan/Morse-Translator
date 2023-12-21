@@ -21,6 +21,8 @@ int main() {
     fflush(stdin);
     scanf("%[^\n]", frase);
 
+    printf("\n");
+
     minusculo(frase, frase2);
 
     for(int i=0;i<strlen(frase2);i++) {
@@ -49,7 +51,7 @@ int main() {
         }
     }
 
-    printf("\n");
+    printf("\n\n");
     
     return 0;
 }
